@@ -9,8 +9,8 @@ from prophet.plot import plot_plotly
 import io
 
 # ---------- CONFIG ----------
-st.set_page_config(page_title="OpenAI Financial Dashboard", layout="wide")
-st.title("📊 OpenAI – AI Revenue & R&D Dashboard")
+st.set_page_config(page_title="AI Financial Dashboard", layout="wide")
+st.title("📊 AI Revenue & R&D Dashboard")
 
 # ---------- LOAD DATA ----------
 @st.cache_data
